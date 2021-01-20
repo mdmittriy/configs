@@ -1,0 +1,21 @@
+{
+  "settingsVersion": "1.66",
+  "exclusionRules": [],
+  "filterLinkHints": false,
+  "waitForEnterForFilteredHints": true,
+  "hideHud": true,
+  "keyMappings": "# Insert your preferred key mappings here.\n\nunmapALL\n\n\nmap j scrollDown\nmap k scrollUp\nmap gg scrollToTop\nmap G scrollToBottom\nmap <c-d> scrollPageDown\nmap <c-u> scrollPageUp\nmap r reload\n\nmap <a-h> scrollLeft\nmap <a-l> scrollRight\nmap v enterVisualMode\nmap i focusInput\nmap <c-o> visitPreviousTab\n\nmap f LinkHints.activateMode\nmap F LinkHints.activateModeToOpenInNewForegroundTab\nmap <a-f> LinkHints.activateModeToOpenInNewTab\n\nmap H goBack\nmap L goForward\nmap h previousTab\nmap l nextTab\n\nmap x removeTab\nmap X restoreTab\n\nmap p duplicateTab\nmap y LinkHints.activateModeToCopyLinkUrl\n\nmap / enterFindMode\nmap n performFind\nmap N performBackwardsFind\n\nmap : Vomnibar.activate\n\nmap t createTab\nmap ? showHelp \nmap m toggleMuteTab\n\nmap M moveTabToNewWindow\nmap <a-x> closeOtherTabs\n\nmap gf nextFrame",
+  "linkHintCharacters": "asdghjkltrewyuiopbvcxznm",
+  "linkHintNumbers": "0123456789",
+  "newTabUrl": "about:newtab",
+  "nextPatterns": "next,more,newer,>,›,→,»,≫,>>",
+  "previousPatterns": "prev,previous,back,older,<,‹,←,«,≪,<<",
+  "regexFindMode": true,
+  "ignoreKeyboardLayout": true,
+  "scrollStepSize": 60,
+  "smoothScroll": true,
+  "grabBackFocus": true,
+  "searchEngines": "# g : https://www.google.com/search?q=%s Google\n\n# y: https://www.youtube.com/results?search_query=%s Youtube\n\n# w: https://www.wikipedia.org/w/index.php?title=Special:Search&search=%s Wikipedia\n\n# More examples.\n#\n# (Vimium supports search completion Wikipedia, as\n# above, and for these.)\n#",
+  "searchUrl": "https://www.google.com/search?q=",
+  "userDefinedLinkHintCss": "div > .vimiumHintMarker {\n/* linkhint boxes */\nbackground: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFFFF),\n  color-stop(100%,#FFFFFF));\nborder: 1px solid #E3BE23;\n}\n\ndiv > .vimiumHintMarker span {\n/* linkhint text */\ncolor: black;\nfont-weight: bold;\nfont-size: 12px;\n}\n\ndiv > .vimiumHintMarker > .matchingCharacter {\n}"
+}
