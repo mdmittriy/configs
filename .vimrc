@@ -105,3 +105,8 @@ set linebreak
 "language tool stuff"
 let g:languagetool_jar='/home/dima/installed/languagetool/languagetool-standalone/target/LanguageTool-5.3-SNAPSHOT/LanguageTool-5.3-SNAPSHOT/languagetool-commandline.jar'
 let g:languagetool_lang='en-US'
+
+"dima sets html autocopletion"
+autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
+autocmd FileType html abbrev </ </<C-X><C-O>
+
